@@ -15,7 +15,7 @@
         "symfony/yaml": "*"
     },
     "suggest": {
-        "rindow/rindow-container": "It needs some service container",
+        "rindow/rindow-container": "It needs some service container"
     },
     "autoload": {
         "psr-0": {
