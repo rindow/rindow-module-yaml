@@ -1,0 +1,5 @@
+# If you want to use this, you must configure the yaml form builder in the configuration.
+#
+# Sample mapping to POPO style entity model
+# Acme.MyApp.Entity.Category.form.yml
+ERROR: { @error
