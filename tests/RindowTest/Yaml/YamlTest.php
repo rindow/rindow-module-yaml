@@ -33,9 +33,6 @@ class Test extends TestCase
             $this->markTestSkipped();
             return;
         }
-        usleep( RINDOW_TEST_CLEAR_CACHE_INTERVAL );
-        \Rindow\Stdlib\Cache\CacheFactory::clearCache();
-        usleep( RINDOW_TEST_CLEAR_CACHE_INTERVAL );
     }
 
     public function testNormal()
@@ -45,6 +42,7 @@ class Test extends TestCase
                 'modules' => array(
                     'Rindow\Module\Yaml\Module' => true,
                 ),
+                'enableCache'=>false,
             ),
         );
         $mm = new ModuleManager($config);
