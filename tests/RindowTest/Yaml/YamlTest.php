@@ -76,6 +76,7 @@ class Test extends TestCase
                 'modules' => array(
                     'Rindow\Module\Yaml\Module' => true,
                 ),
+                'enableCache'=>false,
             ),
         );
         $mm = new ModuleManager($config);
