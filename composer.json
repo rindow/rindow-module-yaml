@@ -7,7 +7,7 @@
     "require": {
         "php": ">=5.3.3",
         "rindow/rindow-stdlib": "1.*",
-        "symfony/yaml": "^5.0"
+        "symfony/yaml": "*"
     },
     "require-dev": {
         "rindow/rindow-stdlib": "1.*",
